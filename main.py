@@ -12,6 +12,7 @@ DB_CONFIG = {
 
 CSV_PATH = "scores.csv"
 
+//echo hello
 
 def get_connection():
     return psycopg2.connect(**DB_CONFIG)
